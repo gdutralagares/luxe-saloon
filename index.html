@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="icon" type="image/png" href="images/incon2.png" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -24,10 +24,10 @@
         <a href="#" class="logo"></a>
         <div class="navbar">
           <li><a href="#about" class="nav-link">About Us</a></li>
-          <li><a href="#" class="nav-link">Services</a></li>
-          <li><a href="#" class="nav-link">Package</a></li>
-          <li><a href="#" class="nav-link">Testimonial</a></li>
-          <li><a href="#" class="nav-link">Contact Us</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#services" class="nav-link">Package</a></li>
+          <li><a href="#testimonial" class="nav-link">Testimonial</a></li>
+          <li><a href="#home" class="nav-link">Contact Us</a></li>
           <a href="#" class="register-btn btn">Register</a>
         </div>
         <div class="menu-icon">
@@ -47,7 +47,7 @@
           </h2>
           <div class="home-btns">
             <a href="#" class="book-btn btn">Book Now</a>
-            <a href="#" class="explore-btn btn">Explore</a>
+            <a href="#services" class="explore-btn btn">Explore</a>
           </div>
           <div class="home-img">
             <img src="images/home.jpg" alt="" />
@@ -78,7 +78,7 @@
     <!--About-->
     <section class="about container" id="about">
       <div class="about-text">
-        <h2 class="heading">About Us</h2>
+        <h2 class="heading"><span>About Us</span></h2>
         <h1>Your Beauty Skin Is Our Priority</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non,
@@ -95,7 +95,7 @@
       <!--About data-->
       <div class="about-data">
         <div class="about-box">
-          <img src="images/skincare.png" alt="" />
+         <img src="images/dapper.png" alt="">
           <div class="about-overlay">
             <div class="overlay-text">
               <h2>Skin Care</h2>
@@ -135,8 +135,8 @@
                 <img src="images/manicure.jpg" alt="" />
               </div>
               <div class="box-data">
-                <h2 class="heading">Our Services</h2>
-                <h2>Manicure</h2>
+                <h2 class="heading"><span>Our Services</span></h2>
+                <h1>Manicure</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Asperiores placeat repellendus qui molestias fugit. Tenetur.
@@ -144,13 +144,17 @@
                 <div class="package">
                   <div class="p-box">
                     <i class="bx bx-badge-check"></i>
-                    <span>60 Minutes - $99</span>
+                    <span>Manicure - $80</span>
                   </div>
                   <div class="p-box">
                     <i class="bx bx-badge-check"></i>
-                    <span>90 Minutes - $130</span>
+                    <span>Pedicure - $60</span>
                   </div>
-                  <a href="#" class="book-now btn">Book Now</a>
+                  <div class="p-box">
+                    <i class="bx bx-badge-check"></i>
+                    <span>Both - $120</span>
+                  </div>
+                  <a href="#home" class="book-now btn">Book Now</a>
                 </div>
               </div>
             </div>
@@ -159,23 +163,21 @@
           <div class="swiper-slide">
             <div class="service-box">
               <div class="ser-img">
-                <img src="images/dapper.png" alt="" />
+                <img src="images/skincare2.jpg" alt="" />
               </div>
               <div class="box-data">
-                <h2 class="heading">Our Services</h2>
+                <h2 class="heading"><span>Our Services</span></h2>
                 <h2>Dapper facial</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores placeat repellendus qui molestias fugit. Tenetur.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus sint, animi aspernatur asperiores necessitatibus.<p>Sapiente eveniet rerum ab obcaecati a odio perferendis optio expedita adipisci similique nobis consectetur.</p> 
                 </p>
                 <div class="package">
                   <div class="p-box">
                     <i class="bx bx-badge-check"></i>
-                    <span>60 Minutes - $99</span>
+                    <span>20 Minutes - $69</span>
                   </div>
                   <div class="p-box">
                     <i class="bx bx-badge-check"></i>
-                    <span>90 Minutes - $130</span>
+                    <span>45 Minutes - $120</span>
                   </div>
                   <a href="#" class="book-now btn">Book Now</a>
                 </div>
@@ -189,7 +191,7 @@
                 <img src="images/hairstylish.jpg" alt="" />
               </div>
               <div class="box-data">
-                <h2 class="heading">Our Services</h2>
+                <h2 class="heading"><span>Our Services</span></h2>
                 <h2>Hair Stylish</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -198,12 +200,9 @@
                 <div class="package">
                   <div class="p-box">
                     <i class="bx bx-badge-check"></i>
-                    <span>60 Minutes - $99</span>
+                    <span>50 Minutes - $130</span>
                   </div>
-                  <div class="p-box">
-                    <i class="bx bx-badge-check"></i>
-                    <span>90 Minutes - $130</span>
-                  </div>
+
                   <a href="#" class="book-now btn">Book Now</a>
                 </div>
               </div>
@@ -216,6 +215,80 @@
         <div class="swiper-button-next"></div>
       </div>
     </section>
+
+    <!--Testimonial-->
+    <section class="testimonial container" id="testimonial">
+      <h2 class="heading"> <span>Testimonial</span></h2>
+      <h3>
+        What Our Beloved <br>
+        Customer Say About Us
+      </h3>
+      <div class="testimonial-data">
+       <!--box1-->
+        <div class="t-box">
+          <div class="t-img">
+            <img src="images/profile1.jpg" alt="">
+            <i class='bx bxs-quote-alt-right' ></i>
+          </div>
+          <h2>Chelsea Smith</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <!--box2-->
+        <div class="t-box">
+          <div class="t-img">
+            <img src="images/profile2.jpg" alt="">
+            <i class='bx bxs-quote-alt-right' ></i>
+          </div>
+          <h2>Vivian Brooks</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magni eligendi sint. </p>
+        </div>
+         <!--box3-->
+        <div class="t-box">
+          <div class="t-img">
+            <img src="images/profile3.jpg" alt="">
+            <i class='bx bxs-quote-alt-right' ></i>
+          </div>
+          <h2>Sandra Goulart</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <div class="footer-container container">
+        <div class="footer-box">
+          <a href="#" class="logo">Luxe</a>
+          <div class="social">
+            <a href=""><i class='bx bxl-twitter' ></i></a>
+            <a href=""><i class='bx bxl-facebook' ></i></a>
+            <a href=""><i class='bx bxl-instagram' ></i></a>
+            <a href=""><i class='bx bxl-youtube' ></i></a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Services</h3>
+          <a href="#">Skin</a>
+          <a href="#">Hair</a>
+          <a href="#">Manicure</a>
+        </div>
+        <div class="footer-box">
+          <h3>Legal</h3>
+          <a href="#">Privacy</a>
+          <a href="#">Refund Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <p>Brazil</p>
+          <p>Canada</p>
+          <p>United States</p>
+        </div>
+      </div>
+    </section>
+
+
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
