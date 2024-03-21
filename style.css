@@ -604,6 +604,13 @@ header.shadow{
     bottom: -84px;
     right: -40px;
   }
+  .about {
+    margin-top: 0px;
+}
+.about-text {
+  text-align: center;
+  margin-top: 1rem !important;
+}
 }
 @media (max-width:747px){
   .home-img{
