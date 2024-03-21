@@ -548,7 +548,7 @@ header.shadow{
     position: absolute;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 240px;
     min-height: 100vh;
     background: var(--color2);
     display: flex;
