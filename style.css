@@ -647,7 +647,7 @@ header.shadow{
     font-size: 2.2rem;
   }
   .testimonial-data{
-    grid-template-columns: repeat(1, 350px);
+    grid-template-columns: repeat(1, 250px);
     justify-content: center;
     gap:10px
   }
