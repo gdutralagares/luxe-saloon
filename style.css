@@ -55,7 +55,7 @@ header.shadow{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 2px 0;
 }
 .logo{
   width: 150px;
@@ -358,7 +358,10 @@ header.shadow{
   gap: 1.5rem;
 }
 #services{
-  margin-top: 80px;
+  margin-top: 50px;
+}
+.box-data{
+  margin-top: 25px;
 }
 .box-data h1{
   font-size: 1.8rem;
@@ -436,12 +439,14 @@ header.shadow{
   font-size: 1.8rem;
   letter-spacing: 1px;
   font-weight: 500;
+  margin-top: 2.5rem;
 }
 .testimonial-data{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 2.5rem;
   margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 .t-img{
   width: 33%;
